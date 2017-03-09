@@ -1,0 +1,203 @@
+@import url("reset.css");
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.wrapper header {
+  width: 100%;
+  height: 7rem;
+  background: none;
+}
+.wrapper header .hea {
+  width: 100%;
+  height: 4rem;
+  background: #2a7ad3;
+  padding: 10px;
+  box-sizing: border-box;
+  position: relative;
+}
+.wrapper header .hea input {
+  width: 100%;
+  height: 2.5rem;
+  background: #ffffff;
+  border: none;
+  padding-left: 30px;
+}
+.wrapper header .hea .img1 {
+  width: 15px;
+  height: auto;
+  background: none;
+  position: absolute;
+  top: 18px;
+  left: 16px;
+}
+.wrapper header .hea .img2 {
+  width: 15px;
+  height: auto;
+  background: none;
+  position: absolute;
+  top: 17px;
+  right: 40px;
+}
+.wrapper header .hea .img3 {
+  width: 15px;
+  height: auto;
+  background: none;
+  position: absolute;
+  top: 16px;
+  right: 17px;
+}
+.wrapper header .nav {
+  width: 100%;
+  height: 30px;
+  background: #f5f5f5;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  line-height: 30px;
+  border-bottom: 1px solid #e7e7e7;
+}
+.wrapper header .nav .nav_left {
+  -webkit-box-flex: 1;
+}
+.wrapper header .nav .nav_left .swiper-slide {
+  text-align: center;
+}
+.wrapper header .nav .nav_left .active1 {
+  color: #2a7ad3;
+}
+.wrapper header .nav .nav_right {
+  width: 30px;
+  height: auto;
+  background: none;
+  text-align: center;
+}
+.wrapper header .nav .nav_right img {
+  width: 15px;
+  height: auto;
+  background: none;
+}
+.wrapper section {
+  -webkit-box-flex: 1;
+  overflow-y: auto;
+}
+.wrapper section::-webkit-scrollbar {
+  width: 0;
+}
+.wrapper section .market {
+  margin-top: 10px;
+}
+.wrapper section .market .ma_top {
+  padding: 0 8px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+.wrapper section .market .ma_bottom {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding: 0 8px;
+  box-sizing: border-box;
+}
+.wrapper section .market .ma_bottom div {
+  margin: 3px;
+  -webkit-box-flex: 1;
+}
+.wrapper section .market .ma_bottom div img {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.wrapper section .just {
+  margin-top: 10px;
+  padding: 0 5px 0 10px;
+  box-sizing: border-box;
+}
+.wrapper section .just .on {
+  border-bottom: 1px solid #9C9C9C;
+  padding-bottom: 10px;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.wrapper section .just .ju_left {
+  -webkit-box-flex: 1;
+  color: #9c9c9c;
+}
+.wrapper section .just .ju_left span {
+  display: inline-block;
+  border: 1px solid red;
+  border-radius: 5px;
+  color: red;
+  width: 20px;
+  height: 20px;
+  background: none;
+  text-align: center;
+}
+.wrapper section .just .ju_right {
+  width: 30px;
+  height: auto;
+  background: none;
+}
+.wrapper section .just .ju_right span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: none;
+  border: 1px solid #9C9C9C;
+  text-align: center;
+  border-radius: 5px;
+}
+.wrapper section .china {
+  padding: 0 5px;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+.wrapper section .china .confinde {
+  font-size: 15px;
+}
+.wrapper section .banner {
+  padding: 0 8px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.wrapper section .banner img {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.wrapper footer {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 4rem;
+  background: none;
+  border-top: 1px solid #f1f1f1;
+}
+.wrapper footer dl {
+  -webkit-box-flex: 1;
+  text-align: center;
+  padding-top: 3px;
+}
+.wrapper footer dl dt img {
+  width: 18px;
+  height: auto;
+  background: none;
+}
+.wrapper footer dl dd {
+  padding-top: 3px;
+}
+.wrapper footer .active {
+  color: #6b8bb2;
+}
