@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../../css/我的店铺/资料修改-性别/style.css"/>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<div class="left"><img src="../../img/我的店铺/店铺与个人信息/a1_03.png"/></div>
+				<div class="center">用户性别</div>
+				<div class="right">保存</div>
+			</header>
+			<section>
+				<div class="sex">
+					<div class="sex_top">
+						<p>男</p>
+						<h3><img src="../../img/我的店铺/二维码名片-分享状态/勾2.png"/></h3>
+					</div>
+					<div class="sex_top">
+						<p>女</p>
+						<h3><img src="../../img/我的店铺/二维码名片-分享状态/勾2.png"/></h3>
+					</div>
+				</div>
+			</section>
+		</div>
+	</body>
+	<script src="../../js/jQuery.1.11.2.min.js"></script>
+	<script>
+		$(function(){
+			$(".sex_top img").hide();
+			$(".sex_top").click(function(){
+				$(this).children().children("img").show();
+				$(this).siblings().children().children("img").hide();
+			})
+		})
+	</script>
+</html>
