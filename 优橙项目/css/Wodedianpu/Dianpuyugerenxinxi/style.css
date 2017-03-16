@@ -1,0 +1,259 @@
+@import url("reset.css");
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  background: #f7f7f7;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.wrapper header {
+  width: 100%;
+  height: 4rem;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 1px solid #bfbfbf;
+  line-height: 4rem;
+}
+.wrapper header .left {
+  width: 24px;
+  height: auto;
+  background: none;
+  text-align: center;
+}
+.wrapper header .left img {
+  width: 12px;
+  height: auto;
+  background: none;
+}
+.wrapper header .center {
+  -webkit-box-flex: 1;
+  font-size: 15px;
+  text-align: center;
+}
+.wrapper header .right {
+  width: 30px;
+  height: auto;
+  background: none;
+  text-align: center;
+}
+.wrapper header .right img {
+  width: 20px;
+  height: auto;
+  background: none;
+}
+.wrapper section {
+  -webkit-box-flex: 1;
+  position: relative;
+  overflow-y: auto;
+}
+.wrapper section::-webkit-scrollbar {
+  width: 0;
+}
+.wrapper section .banner img {
+  width: 100%;
+  height: 12rem;
+  background: none;
+}
+.wrapper section .little {
+  position: absolute;
+  top: 115px;
+  left: 7px;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+.wrapper section .little .left img {
+  width: 4.5rem;
+  height: auto;
+  background: none;
+}
+.wrapper section .little .right {
+  margin-left: 5px;
+  margin-right: 54px;
+}
+.wrapper section .little .right p {
+  color: #fff;
+  margin-bottom: 8px;
+}
+.wrapper section .little .right h1 p {
+  color: #5054b1;
+}
+.wrapper section .little .right img {
+  width: 1.4rem;
+  height: auto;
+  background: none;
+}
+.wrapper section .design {
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: 26px;
+}
+.wrapper section .information {
+  margin-top: 3px;
+  width: 100%;
+  height: 3.5rem;
+  background: #ffffff;
+  line-height: 3.5rem;
+  font-size: 15px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.wrapper section .names {
+  padding: 0 10px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 3rem;
+  background: #ffffff;
+  margin-top: 1px;
+  line-height: 3rem;
+}
+.wrapper section .names p {
+  float: left;
+}
+.wrapper section .names p img {
+  width: 12px;
+  height: auto;
+  background: none;
+  margin-right: 10px;
+}
+.wrapper section .names h2 {
+  float: right;
+}
+.wrapper section .names h2 img {
+  width: 8px;
+  height: auto;
+  background: none;
+}
+.wrapper section .location {
+  padding: 0 10px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 3rem;
+  background: #ffffff;
+  margin-top: 2px;
+  line-height: 3rem;
+}
+.wrapper section .location p {
+  float: left;
+}
+.wrapper section .location p img {
+  width: 10px;
+  height: auto;
+  background: none;
+  margin-right: 10px;
+}
+.wrapper section .location h1 {
+  float: right;
+}
+.wrapper section .location h1 .img1 {
+  width: 20px;
+  height: auto;
+  background: none;
+}
+.wrapper section .location h1 .img2 {
+  width: 8px;
+  height: auto;
+  background: none;
+  margin-left: 10px;
+}
+.wrapper section .code {
+  margin: 5px 0;
+  width: 100%;
+  height: 3rem;
+  background: #ffffff;
+  padding: 0 10px;
+  box-sizing: border-box;
+  line-height: 3rem;
+}
+.wrapper section .code p {
+  float: left;
+  font-size: 15px;
+}
+.wrapper section .code p a {
+  color: #666666;
+}
+.wrapper section .code h1 {
+  float: right;
+}
+.wrapper section .code h1 img {
+  width: 10px;
+  height: auto;
+  background: none;
+}
+.wrapper section .yang {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  margin-top: 2px;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+.wrapper section .yang p {
+  float: left;
+  padding-bottom: 5px;
+  box-sizing: border-box;
+}
+.wrapper section .yang p span {
+  display: inline-block;
+  font-weight: bold;
+  padding: 8px 0;
+  box-sizing: border-box;
+}
+.wrapper section .yang h2 {
+  margin-top: 18px;
+  float: right;
+}
+.wrapper section .yang h2 img {
+  width: 8px;
+  height: auto;
+  background: none;
+}
+.shades {
+  width: 100%;
+  height: 100%;
+  background: #949494;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.shade_bottom {
+  position: absolute;
+  bottom: 0px;
+  left: 2%;
+  width: 96%;
+  height: auto;
+  background: none;
+  display: none;
+}
+.shade_bottom p {
+  text-align: center;
+  padding: 10px 0;
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 10px 10px 0px 0px;
+  font-size: 14px;
+}
+.shade_bottom .p1 {
+  margin-bottom: 1px;
+}
+.shade_bottom .p2 {
+  border-radius: 0px 0px 10px 10px;
+  margin-bottom: 5px;
+}
+.shade_bottom .p3 {
+  border-radius: 10px;
+}

@@ -1,0 +1,95 @@
+@import url("reset.css");
+//封装宽高背景色
+.full(@w, @h, @bg) {
+    width: @w;
+    height: @h;
+    background: @bg;
+}
+//封装弹性盒
+.box(@ver:horizontal) {
+    display: -webkit-box;     //将当前对象转换为弹性盒 
+    -webkit-box-orient: @ver; //控制子元素排列方向
+}
+html {
+    font-size: 62.5%; 
+}
+html,body{
+    .full(100%,100%,#fff);
+}
+.wrapper{
+    .full(100%,100%,none);
+    .box(vertical);
+    header{
+        .full(100%,4rem,#f7f7f7);
+        .box(horizontal);
+        border-bottom: 1px solid #bfbfbf;
+        .left{
+            .full(20px,auto,none);
+            text-align: center;
+            line-height: 4rem;
+            img{
+                .full(10px,auto,none);
+            }
+        }
+        .right{
+            -webkit-box-flex: 1;
+            text-align: center;
+            line-height: 4rem;
+            font-size: 14px;
+        }
+    }
+    section{
+        -webkit-box-flex: 1;
+        .careful{
+            margin-top: 15rem;
+            padding: 0 1rem;
+            box-sizing: border-box;
+            input{
+                outline: none;
+            }
+            
+        }
+        .sign{
+            padding: 0 1rem;
+            box-sizing: border-box;
+            margin-top: 2rem;
+            button{
+                .full(100%,auto,#ff7f1d);
+                padding: 0.5rem 0;
+                box-sizing: border-box;
+                border: none;
+                border-radius: 10px;
+                outline: none;
+                font-size: 14px;
+                color: #fff;
+            }
+        }
+    }
+}
+.shade{
+    .full(100%,100%,#919191);
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.shade_center{
+    text-align: center;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%) translateY(-50%);
+    display: none;
+    p{
+        padding: 1rem 0.8rem;
+        border-bottom: 1px solid #666666;
+    }
+    span{
+        display: inline-block;
+        padding: 0.5rem 0;
+        box-sizing: border-box;
+        color: #1583fe;
+    }
+}
