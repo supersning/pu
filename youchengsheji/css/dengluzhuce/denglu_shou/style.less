@@ -1,0 +1,81 @@
+@import url("reset.css");
+.full(@w,@h,@bg){
+    width:@w;
+    height: @h;
+    background: @bg;
+}
+.box(@ver){
+     display: -webkit-box; 
+    -webkit-box-orient: @ver;
+}
+html{
+  font-size: 62.5%;
+}
+.whole{
+    .full(100%,100%,none);
+    .box(vertical);
+    background: url(../../../img/图层-0-拷贝.png);
+    background-size: 100%;
+    section{
+        .full(100%,100%,none);
+        .photo{
+            img{
+                .full(9rem,auto,none)
+            }
+            h1{
+                text-align: center;
+                margin-top: 3.5rem;
+            }
+            p{
+                text-align: center;
+                font-size: 14px;
+            }
+        }
+        .iphone{
+            position: relative;
+            .full(100%,auto,none);
+            .put{
+                padding: 30px 60px 0px 90px;
+                
+                input{
+                  .full(100%,auto,none); 
+                  border: none;
+                  outline: none;
+                  border-bottom: 1px solid #ff7d1b; 
+                }
+            }
+            span{
+                position: absolute;
+                left: 55px;
+                top: 27px;
+                    img{
+                     .full(28px,auto,none); 
+                    }
+            }
+        }
+        .login{
+            padding: 25px 15px 5px 15px;
+            p{ 
+              .full(100%,40px,#ff7d1b);  
+              border-radius: 5px;
+              span{
+                  .full(100%,40px,none);
+                  display: inline-block;
+                  text-align: center;
+                  line-height: 40px;
+                  font-size: 14px;
+                  color: #fff;
+              }
+            }
+        }
+        .enroll{
+           padding: 5px 15px 5px 15px; 
+           span{
+               float: right;
+           }
+           p{
+               color: #517dae;
+           }
+        }
+    }
+}

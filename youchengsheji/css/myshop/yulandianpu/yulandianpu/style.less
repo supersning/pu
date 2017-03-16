@@ -1,0 +1,170 @@
+@import url("reset.css");
+.full(@w,@h,@bg){
+    width:@w;
+    height: @h;
+    background: @bg;
+}
+.box(@ver){
+     display: -webkit-box; 
+    -webkit-box-orient: @ver;
+}
+html{
+  font-size: 62.5%;
+}
+.whole{
+    .full(100%,100%,none);
+    .box(vertical);
+     header{
+        .full(100%,40px,#f7f7f7);
+        border-bottom: 1px solid silver;
+        .box(horizontal);
+        h1{
+            -webkit-box-flex: 1;
+            text-align: center;
+            line-height: 40px;
+            margin-right: 10px;
+        }
+        .left,.right{
+          .full(85px,40px,#f7f7f7);  
+        }
+        .left{
+            text-align: center;
+            line-height: 40px;
+            margin-left: -18px;
+            span{
+                .full(11px,11px,none);
+                display: inline-block;
+                border: 2px solid silver;
+                transform: rotate(45deg);
+                border-top: none;
+                border-right: none;
+            }
+        }
+        .right{
+            line-height:45px;
+            span{
+                margin-left: 20px;
+            }
+            img{
+                .full(1.7rem,auto,none);
+                margin-right: 10px;
+            }
+        }
+    }
+    section{
+        overflow-y: auto;
+        &::-webkit-scrollbar{width: 0;}
+        -webkit-box-flex: 1;
+        .full(100%,100%,#f2f2f2);
+        position: relative;
+        .logo{
+            .full(100%,auto,none);
+            background: url(../../../../img/我的店铺/b_02.png);
+            background-size: 100% 100%;
+            dl{
+                padding: 70px 10px 51px 10px;
+                position: relative;
+                dt{
+                    float: left;
+                    img{
+                        .full(5.5rem,auto,none);
+                    }
+                }
+                dd{
+                    color: #fff;
+                    margin-right: 10px;
+                    line-height: 20px;
+                }
+                .logo_s{
+                    .full(55px,16px,#ff4808);
+                    display: inline-block;
+                     color: #fff;
+                     border-radius: 4px;
+                     text-align: center;
+                     line-height: 16px;   
+                     position: absolute;
+                     left: 165px;
+                     top: 72px;
+                }
+                .log_p{
+                  .full(50px,20px,#ff7e1c);  
+                  display: inline-block;
+                  color: #fff;
+                  text-align: center;
+                  line-height: 20px;
+                  border-radius: 4px;
+                  position: absolute;
+                  left: 250px;
+                  top: 90px;
+                }
+            }
+        }
+        .nav{
+            .full(100%,auto,#cccccc);
+            .box(horizontal);
+            position: absolute;
+            left: 0px;
+            top: 112px;
+            opacity: 0.9;
+            dl{
+                -webkit-box-flex: 1;
+                text-align: center;
+//              line-height: 20px;
+                margin-top: 3px;
+                dt{
+                    img{
+                        .full(auto,1.9rem,none)
+                    }
+                }
+            }
+        }
+        .photo{
+            margin-top: 5px;
+            img{
+                .full(100%,auto,none)
+            }
+        }
+        .list{
+            .full(100%,auto,none);
+            .box(horizontal);
+            margin-top: 5px;
+            dl{
+                -webkit-box-flex: 1;
+                .full(100%,auto,none);
+                dt{
+                    img{
+                      .full(100%,auto,none);  
+                    }
+                }
+                dd{
+                    .full(88%,auto,none);
+                   margin-left: 10px;
+                   margin-top: -17px;
+                }
+                p{
+                     .full(88%,auto,none);
+//                  padding-left: 10px;
+                    margin-left: 10px;
+                    span{
+                        color: #ccc;
+                        float: right;
+                        margin-right: 18px;
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        .full(100%,50px,none);
+        border-top: 1px solid silver;
+        ul{
+            .box(horizontal);
+            text-align: center;
+            line-height:50px;
+            li{
+                -webkit-box-flex: 1;
+                border-right: 1px solid silver;
+            }
+        }
+    }
+}
