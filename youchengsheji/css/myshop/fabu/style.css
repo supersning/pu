@@ -1,0 +1,250 @@
+@import url("reset.css");
+html {
+  font-size: 62.5%;
+}
+.whole {
+  width: 100%;
+  height: 100%;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.whole header {
+  width: 100%;
+  height: 40px;
+  background: #f7f7f7;
+  border-bottom: 1px solid silver;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.whole header h1 {
+  text-align: center;
+  line-height: 40px;
+  -webkit-box-flex: 1;
+}
+.whole header div {
+  width: 40px;
+  height: 40px;
+  background: none;
+}
+.whole header span {
+  width: 10px;
+  height: 10px;
+  background: none;
+  display: inline-block;
+  border: 2px solid #000000;
+  transform: rotate(45deg);
+  border-top: none;
+  border-right: none;
+  margin-left: 18px;
+  margin-top: 13px;
+}
+.whole header p {
+  line-height: 40px;
+}
+.whole section {
+  overflow-y: auto;
+  -webkit-box-flex: 1;
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+}
+.whole section::-webkit-scrollbar {
+  width: 0;
+}
+.whole section .shop {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  padding: 10px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ccc;
+}
+.whole section .shop h1 {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+}
+.whole section .shop span {
+  color: #ccc;
+}
+.whole section .photo {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+}
+.whole section .photo ul {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.whole section .photo li img {
+  width: 5.4rem;
+  height: auto;
+  background: none;
+  margin-right: 10px;
+}
+.whole section .basic {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  margin-top: 5px;
+}
+.whole section .basic h1 {
+  padding: 10px;
+  box-sizing: border-box;
+}
+.whole section .basic .name {
+  padding: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  border-top: 1px solid #f2f2f2;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.whole section .basic .name h6 {
+  margin-right: 3px;
+}
+.whole section .basic .name input {
+  width: 130%;
+  height: auto;
+  background: #ffffff;
+  border: none;
+  outline: none;
+}
+.whole section .classify {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  border-bottom: 1px solid silver;
+  margin-top: 5px;
+}
+.whole section .classify h1 {
+  padding: 10px;
+  box-sizing: border-box;
+}
+.whole section .table {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  padding: 5px;
+  box-sizing: border-box;
+  border-bottom: 1px solid silver;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.whole section .table .table_left {
+  width: 80%;
+  height: auto;
+  background: #ffffff;
+  border: 1px solid silver;
+  padding: 5px;
+  box-sizing: border-box;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.whole section .table .table_left .specs {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 1px solid silver;
+  line-height: 22px;
+  border-bottom: none;
+}
+.whole section .table .table_left .specs h3 {
+  margin-right: 10px;
+  padding-left: 10px;
+}
+.whole section .table .table_left .specs input {
+  border: none;
+  outline: none;
+}
+.whole section .table .table_left .spec {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 1px solid silver;
+  line-height: 22px;
+}
+.whole section .table .table_left .spec h3 {
+  margin-right: 10px;
+  padding-left: 10px;
+}
+.whole section .table .table_left .spec input {
+  border: none;
+  outline: none;
+}
+.whole section .table .table_right {
+  -webkit-box-flex: 1;
+  border: 1px solid silver;
+  border-left: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.whole section .table .table_right img {
+  width: 1.7rem;
+  height: auto;
+  background: #ffffff;
+}
+.whole section .table .table_right div {
+  text-align: center;
+  margin-top: 50px;
+}
+.whole section .classify {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  margin-top: 0px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.whole section .classify h2 {
+  width: 100%;
+  height: 29px;
+  background: #f0f0f0;
+  border: 1px solid #666666;
+  border-radius: 5px;
+  text-align: center;
+}
+.whole section .classify h2 span {
+  line-height: 29px;
+}
+.whole section .details {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+}
+.whole section .details h1 {
+  padding: 10px;
+  box-sizing: border-box;
+  border-bottom: 1px solid silver;
+}
+.whole section .discount {
+  border-top: 1px solid silver;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+}
+.whole section .discount h1 {
+  float: left;
+}
+.whole section .discount i {
+  float: right;
+  margin-right: 30px;
+}
+.whole section .discount i span {
+  width: 11px;
+  height: 11px;
+  background: none;
+  display: inline-block;
+  float: right;
+  margin-right: -20px;
+  transform: rotate(45deg);
+  border: 2px solid #666666;
+  border-bottom: none;
+  border-left: none;
+  margin-top: 2px;
+}

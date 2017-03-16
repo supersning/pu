@@ -1,0 +1,191 @@
+@import url("reset.css");
+html {
+  font-size: 62.5%;
+}
+.whole {
+  width: 100%;
+  height: 100%;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.whole header {
+  width: 100%;
+  height: 40px;
+  background: #f7f7f7;
+  border-bottom: 1px solid silver;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.whole header h1 {
+  text-align: center;
+  line-height: 40px;
+  -webkit-box-flex: 1;
+}
+.whole header div {
+  width: 40px;
+  height: 40px;
+  background: none;
+}
+.whole header .left {
+  width: 10px;
+  height: 10px;
+  background: none;
+  display: inline-block;
+  border: 2px solid #000000;
+  transform: rotate(45deg);
+  border-top: none;
+  border-right: none;
+  margin-left: 18px;
+  margin-top: 13px;
+}
+.whole header .right img {
+  width: 1.7rem;
+  height: auto;
+  background: none;
+  margin-top: 10px;
+}
+.whole section {
+  overflow-y: auto;
+  -webkit-box-flex: 1;
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+}
+.whole section::-webkit-scrollbar {
+  width: 0;
+}
+.whole section .bowed {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.whole section .bowed h1 {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  line-height: 20px;
+}
+.whole section .bowed h1 img {
+  width: 1.4rem;
+  height: auto;
+  background: none;
+  margin-bottom: -3px;
+  margin-right: 4px;
+}
+.whole section .bowed input {
+  border: none;
+  outline: none;
+}
+.whole section .order {
+  margin-top: 6px;
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding: 10px;
+  box-sizing: border-box;
+  border-bottom: 1px solid silver;
+}
+.whole section .order div {
+  -webkit-box-flex: 1;
+}
+.whole section .order input {
+  border: none;
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  outline: none;
+}
+.whole section .orders {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding: 10px;
+  box-sizing: border-box;
+  border-bottom: 1px solid silver;
+}
+.whole section .orders div {
+  -webkit-box-flex: 1;
+}
+.whole section .orders input {
+  border: none;
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  outline: none;
+}
+.whole section .design {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  border-bottom: 1px solid silver;
+}
+.whole section .design h1 {
+  padding: 10px;
+}
+.whole section .design ul {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.whole section .design ul li {
+  -webkit-box-flex: 1;
+}
+.whole section .design ul li img {
+  width: 8rem;
+  height: auto;
+  background: none;
+  margin-right: 3px;
+}
+.whole section p {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  padding: 6px 10px 6px 10px;
+  box-sizing: border-box;
+  color: #ccc;
+}
+.whole section p span {
+  float: right;
+}
+.whole footer {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.whole footer .foot {
+  width: 100%;
+  height: auto;
+  background: none;
+  padding: 5px 10px 5px 10px;
+  box-sizing: border-box;
+}
+.whole footer .foot .foot_left h1 {
+  font-size: 14px;
+}
+.whole footer .foot .foot_left p {
+  font-size: 10px;
+}
+.whole footer .foot .foot_right {
+  float: right;
+  margin-top: -32px;
+}
+.whole footer .foot .foot_right span {
+  width: 70px;
+  height: 30px;
+  background: none;
+  display: inline-block;
+  border: 1px solid #ff7d1b;
+  text-align: center;
+  line-height: 30px;
+  color: #ff7d1b;
+  border-radius: 5px;
+  margin-right: 3px;
+}

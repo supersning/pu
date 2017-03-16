@@ -1,0 +1,201 @@
+@import url("reset.css");
+html {
+  font-size: 62.5%;
+}
+.whole {
+  width: 100%;
+  height: 100%;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.whole header {
+  width: 100%;
+  height: 40px;
+  background: #f7f7f7;
+  border-bottom: 1px solid silver;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.whole header h1 {
+  -webkit-box-flex: 1;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 10px;
+}
+.whole header .left,
+.whole header .right {
+  width: 85px;
+  height: 40px;
+  background: #f7f7f7;
+}
+.whole header .left {
+  text-align: center;
+  line-height: 40px;
+  margin-left: -18px;
+}
+.whole header .left span {
+  width: 11px;
+  height: 11px;
+  background: none;
+  display: inline-block;
+  border: 2px solid silver;
+  transform: rotate(45deg);
+  border-top: none;
+  border-right: none;
+}
+.whole header .right {
+  line-height: 45px;
+}
+.whole header .right span {
+  margin-left: 20px;
+}
+.whole header .right img {
+  width: 1.7rem;
+  height: auto;
+  background: none;
+  margin-right: 10px;
+}
+.whole section {
+  overflow-y: auto;
+  -webkit-box-flex: 1;
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+  position: relative;
+}
+.whole section::-webkit-scrollbar {
+  width: 0;
+}
+.whole section .logo {
+  width: 100%;
+  height: auto;
+  background: none;
+  background: url(../../../../img/我的店铺/b_02.png);
+  background-size: 100% 100%;
+}
+.whole section .logo dl {
+  padding: 70px 10px 51px 10px;
+  position: relative;
+}
+.whole section .logo dl dt {
+  float: left;
+}
+.whole section .logo dl dt img {
+  width: 5.5rem;
+  height: auto;
+  background: none;
+}
+.whole section .logo dl dd {
+  color: #fff;
+  margin-right: 10px;
+  line-height: 20px;
+}
+.whole section .logo dl .logo_s {
+  width: 55px;
+  height: 16px;
+  background: #ff4808;
+  display: inline-block;
+  color: #fff;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 16px;
+  position: absolute;
+  left: 165px;
+  top: 72px;
+}
+.whole section .logo dl .log_p {
+  width: 50px;
+  height: 20px;
+  background: #ff7e1c;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 4px;
+  position: absolute;
+  left: 250px;
+  top: 90px;
+}
+.whole section .nav {
+  width: 100%;
+  height: auto;
+  background: #cccccc;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  position: absolute;
+  left: 0px;
+  top: 112px;
+  opacity: 0.9;
+}
+.whole section .nav dl {
+  -webkit-box-flex: 1;
+  text-align: center;
+  margin-top: 3px;
+}
+.whole section .nav dl dt img {
+  width: auto;
+  height: 1.9rem;
+  background: none;
+}
+.whole section .photo {
+  margin-top: 5px;
+}
+.whole section .photo img {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.whole section .list {
+  width: 100%;
+  height: auto;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  margin-top: 5px;
+}
+.whole section .list dl {
+  -webkit-box-flex: 1;
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.whole section .list dl dt img {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.whole section .list dl dd {
+  width: 88%;
+  height: auto;
+  background: none;
+  margin-left: 10px;
+  margin-top: -17px;
+}
+.whole section .list dl p {
+  width: 88%;
+  height: auto;
+  background: none;
+  margin-left: 10px;
+}
+.whole section .list dl p span {
+  color: #ccc;
+  float: right;
+  margin-right: 18px;
+}
+.whole footer {
+  width: 100%;
+  height: 50px;
+  background: none;
+  border-top: 1px solid silver;
+}
+.whole footer ul {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  text-align: center;
+  line-height: 50px;
+}
+.whole footer ul li {
+  -webkit-box-flex: 1;
+  border-right: 1px solid silver;
+}

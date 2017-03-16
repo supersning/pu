@@ -1,0 +1,69 @@
+@import url("reset.css");
+html {
+  font-size: 62.5%;
+}
+.whole {
+  width: 100%;
+  height: 100%;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.whole header {
+  width: 100%;
+  height: 40px;
+  background: #f7f7f7;
+  border-bottom: 1px solid silver;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.whole header h1 {
+  text-align: center;
+  line-height: 40px;
+  -webkit-box-flex: 1;
+}
+.whole header div {
+  width: 40px;
+  height: 40px;
+  background: none;
+}
+.whole header span {
+  width: 10px;
+  height: 10px;
+  background: none;
+  display: inline-block;
+  border: 2px solid #000000;
+  transform: rotate(45deg);
+  border-top: none;
+  border-right: none;
+  margin-left: 18px;
+  margin-top: 13px;
+}
+.whole section {
+  -webkit-box-flex: 1;
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+}
+.whole section p {
+  text-align: center;
+  margin-top: 70px;
+}
+.whole section p img {
+  width: 10rem;
+  height: auto;
+  background: none;
+}
+.whole section h1 {
+  text-align: center;
+  font-size: 16px;
+}
+.whole section span {
+  width: 100%;
+  height: auto;
+  background: none;
+  display: inline-block;
+  padding: 25px;
+  box-sizing: border-box;
+  color: #9a9a9a;
+}

@@ -1,0 +1,92 @@
+@import url("reset.css");
+html {
+  font-size: 62.5%;
+}
+.whole {
+  width: 100%;
+  height: 100%;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.whole header {
+  width: 100%;
+  height: 40px;
+  background: #f7f7f7;
+  border-bottom: 1px solid silver;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.whole header h1 {
+  text-align: center;
+  line-height: 40px;
+  -webkit-box-flex: 1;
+}
+.whole header div {
+  width: 40px;
+  height: 40px;
+  background: none;
+}
+.whole header span {
+  width: 10px;
+  height: 10px;
+  background: none;
+  display: inline-block;
+  border: 2px solid #000000;
+  transform: rotate(45deg);
+  border-top: none;
+  border-right: none;
+  margin-left: 18px;
+  margin-top: 13px;
+}
+.whole section {
+  -webkit-box-flex: 1;
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+}
+.whole section .originality {
+  padding: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  border-bottom: 1px solid silver;
+}
+.whole section .originality h1 {
+  float: left;
+}
+.whole section .originality span {
+  float: right;
+}
+.whole section .originality span img {
+  width: 1.5rem;
+  height: auto;
+  background: none;
+}
+.whole section .wen {
+  width: 100%;
+  height: auto;
+  background: none;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.whole section .wen h2 {
+  color: #9a9a9a;
+}
+.whole section .wen p {
+  color: #9a9a9a;
+}
+.whole section .wen span {
+  width: 100%;
+  height: 30px;
+  background: #ff7f1c;
+  display: inline-block;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.whole section .wen span h3 {
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+}

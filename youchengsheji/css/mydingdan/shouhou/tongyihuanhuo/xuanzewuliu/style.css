@@ -1,0 +1,93 @@
+@import url("reset.css");
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+}
+.whole {
+  width: 100%;
+  height: 100%;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.whole header {
+  width: 100%;
+  height: 40px;
+  background: #f7f7f7;
+  border-bottom: 1px solid silver;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.whole header h1 {
+  text-align: center;
+  line-height: 40px;
+  -webkit-box-flex: 1;
+}
+.whole header div {
+  width: 40px;
+  height: 40px;
+  background: none;
+}
+.whole header p {
+  line-height: 40px;
+}
+.whole header .left {
+  width: 10px;
+  height: 10px;
+  background: none;
+  display: inline-block;
+  border: 2px solid #000000;
+  transform: rotate(45deg);
+  border-top: none;
+  border-right: none;
+  margin-left: 18px;
+  margin-top: 13px;
+}
+.whole header .right img {
+  width: 1.7rem;
+  height: auto;
+  background: none;
+  margin-top: 10px;
+}
+.whole section {
+  -webkit-box-flex: 1;
+  width: 100%;
+  height: 100%;
+  background: #f7f7f7;
+}
+.whole section .write {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  padding: 10px;
+  box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.whole section .write div {
+  -webkit-box-flex: 1;
+}
+.whole section .write div input {
+  width: 100%;
+  height: auto;
+  background: none;
+  border: none;
+  outline: none;
+}
+.whole section .logistics {
+  margin-top: 5px;
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.whole section .logistics p {
+  line-height: 25px;
+  border-bottom: 1px solid #f2f2f2;
+}
