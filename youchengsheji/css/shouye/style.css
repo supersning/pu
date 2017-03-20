@@ -17,7 +17,7 @@ html {
   display: -webkit-box;
   -webkit-box-orient: horizontal;
 }
-.whole header span {
+.whole header .p1 {
   width: 40px;
   height: 40px;
   background: none;
@@ -25,10 +25,17 @@ html {
   display: inline-block;
   line-height: 51px;
 }
-.whole header span img {
+.whole header .p1 img {
   width: 1.7rem;
   height: 1.8rem;
   background: #f7f7f7;
+}
+.whole header .p2 {
+  width: 40px;
+  height: 40px;
+  background: none;
+  text-align: center;
+  display: inline-block;
 }
 .whole header h1 {
   -webkit-box-flex: 1;
