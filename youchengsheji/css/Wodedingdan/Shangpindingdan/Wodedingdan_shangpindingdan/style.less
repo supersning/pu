@@ -1,0 +1,142 @@
+@import url("reset.css");
+//封装宽高背景色
+.full(@w, @h, @bg) {
+    width: @w;
+    height: @h;
+    background: @bg;
+}
+//封装弹性盒
+.box(@ver:horizontal) {
+    display: -webkit-box;     //将当前对象转换为弹性盒 
+    -webkit-box-orient: @ver; //控制子元素排列方向
+}
+html {
+    font-size: 62.5%; 
+}
+html,body{
+    .full(100%,100%,#fff);
+}
+.wrapper{
+    .full(100%,100%,#f7f7f7);
+    .box(vertical);
+    header{
+        .full(100%,4rem,none);
+        .box(horizontal);
+        border-bottom: 1px solid #bfbfbf;
+        .left{
+            .full(2rem,auto,none);
+            text-align: center;
+            line-height: 4rem;
+            img{
+                .full(1rem,auto,none);
+            }
+        }
+        .center{
+            -webkit-box-flex: 1;
+            text-align: center;
+            font-size: 14px;
+            span{
+                display: inline-block;
+                .full(8rem,2rem,#ff7f1d);
+                color: red;
+                border-radius: 10px 0px 0px 10px;
+                text-align: center;
+                margin-top: -2.1rem;
+            }
+            b{
+                display: inline-block;
+                .full(8rem,2rem,none);
+                color: #ff7f1d;
+                border: 1px solid #ff7f1d;
+                border-radius: 0px 10px 10px 0px;
+                margin-top: 1.3rem;
+            }
+        }
+        .right{
+            .full(2.5rem,auto,none);
+            text-align: center; 
+            line-height: 4rem;
+            img{
+                .full(1.5rem,auto,none);
+            }     
+        }
+    }
+    section{
+        -webkit-box-flex: 1;
+        overflow-y: auto;
+        &::-webkit-scrollbar{width: 0;};
+        //导航条
+        .navs{
+            .full(100%,4rem,#fff);
+            .box(horizontal);
+            ul{
+                padding-top: 0.3rem;
+                .box(horizontal);
+                -webkit-box-flex: 1;
+                li{
+                    -webkit-box-flex: 1;
+                    text-align: center;
+                }
+            }
+            .nav_right{
+                .full(2rem,1rem,none);
+                text-align: center;
+                line-height: 4rem;
+                span{
+                    display: inline-block;
+                    .full(1rem,1rem,none);
+                    border: 1px solid gray;
+                   -webkit-transform: rotate(45deg);
+                   border-left: none;
+                   border-top: none;
+                }
+            }
+        }
+        //订单编号
+        .serial{
+            margin-top: 0.6rem;
+            .goods{
+                padding: 0.5rem 1rem;
+                box-sizing: border-box;
+                .full(1005,auto,#fff);
+                border-bottom: 1px solid #f7f7f7;
+                .p1{
+                    float: left;
+                }
+                h3{
+                    float: right;
+                    color: #ff7f1d;
+                }
+            }
+            h2{
+                color: #666666;
+                line-height: 2.5rem;
+                padding-left: 1rem;
+                background: #fff;
+            }
+        }
+    }
+    footer{
+        .full(100%,4.5rem,#fff);
+        .box(horizontal);
+        border-top: 1px solid #f2f2f2;
+        dl{
+            -webkit-box-flex: 1;
+            text-align: center;
+            padding-top: 0.2rem;
+            dt{
+                img{
+                    .full(auto,2rem,none);
+                }
+            }
+            &:nth-child(3){
+                img{
+                    .full(4rem,auto,none);
+                }
+            }
+            dd{
+                padding-top: 0.5rem;
+            }
+        }
+    }
+}

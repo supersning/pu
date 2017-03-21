@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../../css/Wodedianpu/Qianyueshouming/style.css"/>
+		<script src="../../js/jQuery.1.11.2.min.js"></script>	
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<div class="left"><img src="../../img/Caiwuguanli/Bangdingzhifubao/1.png"/></div>
+				<div class="right">签约说明</div>
+			</header>
+			<section>
+				<div class="careful">
+					<input type="checkbox" /> 我已仔细阅读签约条约
+				</div>
+				<div class="sign">
+					<button>我想签约</button>
+				</div>
+			</section>
+		</div>
+		<!--遮罩层-->
+		<div class="shade"></div>
+		<div class="shade_center">
+			<p>优橙客服会在5个工作日内联系您！</p>
+			<span>好的</span>
+		</div>
+	</body>
+	<script>
+		$(function(){
+			$(".sign>button").click(function(){
+				$(".shade").show();
+				$(".shade_center").show();
+			});
+			$(".shade_center>span").click(function(){
+				$(".shade").hide();
+				$(".shade_center").hide();
+			})
+		})
+	</script>
+</html>
