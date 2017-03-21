@@ -1,0 +1,230 @@
+@import url("reset.css");
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  background: #f7f7f7;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.wrapper header {
+  width: 100%;
+  height: 40px;
+  background: #f7f7f7;
+  border-bottom: 1px solid silver;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.wrapper header h1 {
+  text-align: center;
+  line-height: 40px;
+  -webkit-box-flex: 1;
+}
+.wrapper header div {
+  width: 40px;
+  height: 40px;
+  background: none;
+}
+.wrapper header .left {
+  width: 10px;
+  height: 10px;
+  background: none;
+  display: inline-block;
+  border: 2px solid #000000;
+  transform: rotate(45deg);
+  border-top: none;
+  border-right: none;
+  margin-left: 18px;
+  margin-top: 13px;
+}
+.wrapper header .right img {
+  width: 1.7rem;
+  height: auto;
+  background: none;
+  margin-top: 10px;
+}
+.wrapper section {
+  -webkit-box-flex: 1;
+  overflow-y: auto;
+}
+.wrapper section::-webkit-scrollbar {
+  width: 0;
+}
+.wrapper section .number {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+.wrapper section .number p {
+  line-height: 2rem;
+}
+.wrapper section .number p span {
+  color: #ff7d1b;
+}
+.wrapper section .commodity {
+  margin-top: 0.5rem;
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+}
+.wrapper section .commodity h1 {
+  font-size: 15px;
+  padding: 0.5rem 1rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #f2f2f2;
+}
+.wrapper section .commodity .print {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  padding: 1rem 0.5rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #f2f2f2;
+}
+.wrapper section .commodity .print .p_left {
+  width: 7.5rem;
+  height: auto;
+  background: none;
+  margin-right: 1rem;
+}
+.wrapper section .commodity .print .p_left img {
+  width: 7.5rem;
+  height: auto;
+  background: none;
+}
+.wrapper section .commodity .print .p_right {
+  -webkit-box-flex: 1;
+  position: relative;
+}
+.wrapper section .commodity .print .p_right .p1 {
+  font-weight: bold;
+}
+.wrapper section .commodity .print .p_right .color p {
+  float: left;
+  color: #959595;
+}
+.wrapper section .commodity .print .p_right .color h2 {
+  float: right;
+}
+.wrapper section .commodity .cost {
+  width: 100%;
+  height: 3rem;
+  background: #ffffff;
+  line-height: 3rem;
+  border-bottom: 1px solid #f2f2f2;
+}
+.wrapper section .commodity .cost p {
+  float: right;
+  margin-right: 1rem;
+}
+.wrapper section .commodity .cost p span {
+  color: #ff7d1b;
+}
+.wrapper section .schedule {
+  margin-top: 5px;
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+}
+.wrapper section .schedule h1 {
+  padding: 10px;
+  border-bottom: 1px solid silver;
+}
+.wrapper section .content {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+}
+.wrapper section .content p {
+  padding-left: 10px;
+  line-height: 20px;
+  color: #747474;
+}
+.wrapper section .content .p1 {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 20px;
+  color: #747474;
+}
+.wrapper section .content .p1 i {
+  width: 50px;
+  height: auto;
+  background: none;
+}
+.wrapper section .content .p1 div {
+  -webkit-box-flex: 1;
+}
+.wrapper section .customer {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  border-top: 1px solid #ccc;
+  padding: 5px 13px 5px 10px;
+  box-sizing: border-box;
+}
+.wrapper section .customer span {
+  float: right;
+  width: 60px;
+  height: 20px;
+  background: #ffffff;
+  display: inline-block;
+  border: 1px solid silver;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 4px;
+}
+.wrapper section .time {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  border-bottom: 1px solid silver;
+}
+.wrapper section .time p {
+  padding-left: 10px;
+  padding-top: 6px;
+  padding-bottom: 5px;
+}
+.wrapper section .time p img {
+  width: 1.2rem;
+  height: auto;
+  background: none;
+  margin-bottom: -3px;
+}
+.wrapper section .time p span {
+  color: #ff7200;
+}
+.wrapper section .execute {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  padding: 5px 10px 5px 10px;
+  box-sizing: border-box;
+}
+.wrapper section .execute span {
+  float: right;
+  width: 60px;
+  height: 20px;
+  background: #ffffff;
+  display: inline-block;
+  border: 1px solid #ff7200;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 4px;
+  margin-right: 5px;
+  color: #ff7200;
+}
