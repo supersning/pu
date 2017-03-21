@@ -1,0 +1,118 @@
+@import url("reset.css");
+.full(@w,@h,@bg){
+    width:@w;
+    height: @h;
+    background: @bg;
+}
+.box(@ver){
+     display: -webkit-box; 
+    -webkit-box-orient: @ver;
+}
+html{
+  font-size: 62.5%;
+}
+.whole{
+    .full(100%,100%,none);
+    .box(vertical);
+   header{
+        .full(100%,40px,#f7f7f7);
+        border-bottom: 1px solid silver;
+        .box(horizontal);
+        h1{
+            -webkit-box-flex: 1;
+            text-align: center;
+            line-height: 40px;
+        }
+        .left,.right{
+          .full(85px,40px,#f7f7f7);  
+        }
+        .left{
+            text-align: center;
+            line-height: 40px;
+            margin-left: -18px;
+            span{
+                .full(11px,11px,none);
+                display: inline-block;
+                border: 2px solid silver;
+                transform: rotate(45deg);
+                border-top: none;
+                border-right: none;
+            }
+        }
+        .right{
+            line-height: 40px;
+            .box(horizontal);
+            h5{
+                margin-right: 11px;
+            }
+        }
+    }
+    section{
+        -webkit-box-flex: 1;
+        .full(100%,100%,#f3f3f3);
+        .search{
+            position: relative;
+            .full(100%,auto,#fff);
+            padding: 10px;
+            box-sizing: border-box;
+            border-bottom: 1px solid silver;
+            input{
+                .full(100%,27px,#e4e4e4);
+                border: none;
+                outline: none;
+                border-radius: 4px;
+                padding-left: 30px;
+                box-sizing: border-box;
+            }
+            span{
+                position: absolute;
+                left: 15px;
+                top: 15px;
+                img{
+                   .full(1.6rem,auto,none); 
+                }
+            }
+        }
+        .price{
+            .full(100%,auto,#fff);
+            padding: 10px;
+            box-sizing: border-box;
+            dl{
+                dt{
+                    float: left;
+                    margin-right: 5px;
+                    img{
+                        .full(7.5rem,auto,none);
+                    }
+                }
+                span{
+                    color: #ff7f1d;
+                    float: right;
+                    margin-top: 15px;
+                    margin-right: 5px;
+                }
+            }
+        }
+        .prices{
+            .full(100%,auto,#fff);
+            padding: 10px;
+            box-sizing: border-box;
+            margin-top: 8px;
+            dl{
+                dt{
+                    float: left;
+                    margin-right: 5px;
+                    img{
+                        .full(7.5rem,auto,none);
+                    }
+                }
+                span{
+                    color: #ff7f1d;
+                    float: right;
+                    margin-top: 15px;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+}

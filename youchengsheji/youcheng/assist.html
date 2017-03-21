@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html na-app="app">
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    	<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    	<link rel="stylesheet" href="../css/youcheng/youcheng/style.css" />
+	</head>
+	<body ui-view>
+		<div class="whole">
+			<header>
+				<div class="con" ui-sref="shouye">
+					<span class="h_left"></span>
+				</div>
+				<h1>评论管理</h1>
+				<span class="h_right"><img src="../img/pinglun/xi.gif"/></span>
+			</header>
+			<section>
+				<div class="read">
+					<p>若是首次定制，请先阅读<span>优橙协助服务说明<span></p>
+				</div>
+				<div class="works">
+					<h6>作品类型:</h6><input type="text" placeholder="列表以外的类型暂不可定制"/>
+				</div>
+				<div class="works">
+					<h6>材质:</h6><input type="text" placeholder="列表中以外的材质暂不可定制"/>
+				</div>
+				<div class="works">
+					<h6>作者名称:</h6><input type="text" placeholder="请输入商品名称"/>
+				</div>
+				<div class="works">
+					<h6>作者描述:</h6><input type="text" placeholder="请详细的叙述作品的样式、规格、功能等信息"/>
+				</div>
+				<div class="works">
+					<h6>数量:</h6><input type="text" placeholder="请输入商品数量"/>
+				</div>
+				<div class="photo">
+					<h1>成品图片(最多三张)</h1>
+					<ul>
+						<li><img src="../img/youcheng/jj.png"/></li>
+						<li><img src="../img/youcheng/jj.png"/></li>
+						<li class="ll"><img src="../img/youcheng/sz.png"/></li>
+					</ul>
+				</div>
+				<div class="man">
+					<h5><img src="../img/youcheng/man.png"/>收货人：</h5><input type="text" placeholder="请输入您的姓名" />
+				</div>
+				<div class="man">
+					<h5><img src="../img/youcheng/ding.png"/>收货地址：</h5><input type="text" placeholder="请输入您的详细地址" />
+				</div>
+			</section>
+			<footer>
+				<p>参考定价：¥<span style="color: #ff7d1b;">188.00</span>(不含运费)</p><span class="r">提交</span>
+			</footer>
+		</div>
+	</body>
+	
+</html>

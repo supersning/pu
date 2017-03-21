@@ -1,0 +1,89 @@
+@import url("reset.css");
+.full(@w,@h,@bg){
+    width:@w;
+    height: @h;
+    background: @bg;
+}
+.box(@ver){
+     display: -webkit-box; 
+    -webkit-box-orient: @ver;
+}
+html{
+  font-size: 62.5%;
+}
+.whole{
+    .box(vertical);
+    .full(100%,100%,none);
+    background:url(../../../img/图层-0-拷贝.png);
+    background-size: 100%;
+    section{
+        .photo{
+            .full(100%,auto,none);
+            h1{
+                text-align: center;
+                margin-top: 3.5rem;
+            }
+            p{
+                text-align: center;
+                color: #656565;
+            }
+            img{
+                .full(10rem,auto,none)
+            }
+        }
+        .password{
+              position: relative;  
+            .full(100%,auto,none);
+            .put{
+                padding: 30px 60px 20px 90px;
+                
+                input{
+                  .full(100%,auto,none); 
+                  border: none;
+                  outline: none;
+                  border-bottom: 1px solid #ff7d1b; 
+                }
+            }
+            .password_left{
+                position: absolute;
+                left: 55px;
+                top: 27px;
+                    img{
+                     .full(28px,auto,none); 
+                    }
+            }
+            .password_right{
+                position: absolute;
+                right: 58px;
+                top: 29px;
+                img{
+                    .full(23px,auto,none);  
+                }
+            }
+        }
+        .login{
+            padding: 5px 15px 5px 15px;
+            p{ 
+              .full(100%,40px,#ff7d1b);  
+              border-radius: 7px;
+              span{
+                  .full(100%,40px,none);
+                  display: inline-block;
+                  text-align: center;
+                  line-height: 40px;
+                  font-size: 14px;
+                  color: #fff;
+              }
+            }
+        }
+        .enroll{
+           padding: 5px 15px 5px 15px; 
+           span{
+               float: right;
+           }
+           p{
+               color: #517dae;
+           }
+        }
+    }
+}

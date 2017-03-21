@@ -1,0 +1,154 @@
+@import url("reset.css");
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  background: #f7f7f7;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.wrapper header {
+  width: 100%;
+  height: 4rem;
+  background: #f7f7f7;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  line-height: 4rem;
+  border-bottom: 1px solie #f7f7f7;
+}
+.wrapper header .left {
+  width: 2rem;
+  height: auto;
+  background: none;
+  text-align: center;
+}
+.wrapper header .left img {
+  width: 1rem;
+  height: auto;
+  background: none;
+}
+.wrapper header .center {
+  -webkit-box-flex: 1;
+  text-align: center;
+}
+.wrapper header .right {
+  width: 2.5rem;
+  height: auto;
+  background: none;
+  text-align: center;
+}
+.wrapper header .right img {
+  width: 1.5rem;
+  height: auto;
+  background: none;
+}
+.wrapper section {
+  -webkit-box-flex: 1;
+  overflow-y: auto;
+}
+.wrapper section::-webkit-scrollbar {
+  width: 0;
+}
+.wrapper section .number {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+.wrapper section .number p {
+  line-height: 2rem;
+}
+.wrapper section .number p span {
+  color: #ff7d1b;
+}
+.wrapper section .commodity {
+  margin-top: 0.5rem;
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+}
+.wrapper section .commodity h1 {
+  font-size: 15px;
+  padding: 0.5rem 1rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #f2f2f2;
+}
+.wrapper section .commodity .print {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  padding: 1rem 0.5rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #f2f2f2;
+}
+.wrapper section .commodity .print .p_left {
+  width: 7.5rem;
+  height: auto;
+  background: none;
+  margin-right: 1rem;
+}
+.wrapper section .commodity .print .p_left img {
+  width: 7.5rem;
+  height: auto;
+  background: none;
+}
+.wrapper section .commodity .print .p_right {
+  -webkit-box-flex: 1;
+  position: relative;
+}
+.wrapper section .commodity .print .p_right .p1 {
+  font-weight: bold;
+}
+.wrapper section .commodity .print .p_right .color p {
+  float: left;
+  color: #959595;
+}
+.wrapper section .commodity .print .p_right .color h2 {
+  float: right;
+}
+.wrapper section .commodity .cost {
+  width: 100%;
+  height: 3rem;
+  background: #ffffff;
+  line-height: 3rem;
+  border-bottom: 1px solid #f2f2f2;
+}
+.wrapper section .commodity .cost p {
+  float: right;
+  margin-right: 1rem;
+}
+.wrapper section .commodity .cost p span {
+  color: #ff7d1b;
+}
+.wrapper section .commodity .update {
+  width: 100%;
+  height: 3rem;
+  background: #ffffff;
+}
+.wrapper section .commodity .update p {
+  float: right;
+  padding-right: 1rem;
+  line-height: 3rem;
+}
+.wrapper section .commodity .update button {
+  font-size: 15px;
+  color: #ff7d1b;
+  border: 1px solid #ff7d1b;
+  border-radius: 0.7rem;
+  width: 6rem;
+  height: auto;
+  background: none;
+  outline: none;
+}

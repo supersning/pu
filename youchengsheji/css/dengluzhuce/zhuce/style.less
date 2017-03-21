@@ -1,0 +1,111 @@
+@import url("reset.css");
+.full(@w,@h,@bg){
+    width:@w;
+    height: @h;
+    background: @bg;
+}
+.box(@ver){
+     display: -webkit-box; 
+    -webkit-box-orient: @ver;
+}
+html{
+  font-size: 62.5%;
+}
+.whole{
+    .full(100%,100%,none);
+    .box(vertical);
+    header{
+       .full(100%,40px,#f7f7f7); 
+        border-bottom: 1px solid #ccc;
+        h1{
+            text-align: center;
+            line-height: 40px;
+        }
+        span{
+            .full(10px,10px,none);
+            display: inline-block;
+            position: absolute;
+            left: 18px;
+            top: 14px;
+            transform: rotate(45deg);
+            border: 2px solid silver;
+            border-right: none;
+            border-top: none;
+        }
+    }
+    section{
+        .full(100%,100%,#f2f2f2);
+        -webkit-box-flex: 1;
+        .username{
+            padding: 10px;
+            box-sizing: border-box;
+            .full(100%,auto,#fff);
+            border-bottom: 1px solid #ccc;
+            color: #C0C0C0;
+            input{
+                border: none;
+                outline: none;
+            }
+        }
+        .password{
+            padding: 10px;
+            box-sizing: border-box;
+            .full(100%,auto,#fff);
+            border-bottom: 1px solid #ccc;
+            color: #C0C0C0;
+            input{
+                border: none;
+                outline: none;
+            }
+        }
+         .iphone{
+            padding: 10px;
+            box-sizing: border-box;
+            .full(100%,auto,#fff);
+            border-bottom: 1px solid #ccc;
+            color: #C0C0C0;
+            input{
+                border: none;
+                outline: none;
+            }
+        }
+        .validate{
+//          .box(horizontal);
+            box-sizing: border-box;
+            .full(100%,3.5rem,#fff);
+            border-bottom: 1px solid #ccc;
+            color: #C0C0C0;
+             input{
+                margin-left: 10px;
+                margin-top: 10px;
+                border: none;
+                outline: none;
+                float: left;
+            }
+            span{
+               display: inline-block;
+              line-height: 3.5rem;
+              .full(80px,3.4rem,#fff);
+              text-align: center;
+              border-bottom: 1px solid #ccc;
+              border-left: 1px solid #ccc;
+              float: right;
+            }
+        }
+        .submit{
+            padding: 25px 15px 5px 15px;
+            p{ 
+              .full(100%,40px,#ff7d1b);  
+              border-radius: 5px;
+              span{
+                  .full(100%,40px,none);
+                  display: inline-block;
+                  text-align: center;
+                  line-height: 40px;
+                  font-size: 14px;
+                  color: #fff;
+              }
+            }
+        }
+    }
+}
